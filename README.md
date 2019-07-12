@@ -1,15 +1,8 @@
-# new-phaser-project
-My ongoing effort to create a nice starting point for Phaser.js games...
+# John Conway's Game of Life in Phaser
 
-IMPORTANT! This report contains several dot files. Do not clone this repo and just do a simple cp over to a new repo or you will likey miss those files.
+Fun little project to reproduce Conway's Game of Life and use Phaser to render the simulation.
 
-Instead try one of the following:
-- download this project as zip file and unpack in your new repo
-- import it with github
-- fork the project
-
-Supports:
-- webpack, webpack dev server, es6 via babel
+Currently just doing B3/S23 with a finite plane.
 
 ## Prereqs
 - make
@@ -19,7 +12,7 @@ Supports:
 - ```make start```
 
 ## Viewing to app
-- In a browser, browse to localhost:8080. Note: if you already have a server on that port it will just increment, thanks to webpack dev server, so it might be 8081 instead.
+- In a browser, browse to 127.0.0.1:8000 
 
 ## Optionally, you can install all dependancies via npm
 - ```npm install```
