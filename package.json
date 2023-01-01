@@ -21,17 +21,17 @@
   "homepage": "https://github.com/[account]/[project]#readme",
   "dependencies": {
     "lodash": "^4.17.14",
-    "phaser": "^3.17.0",
+    "phaser": "^3.55.2",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "audiosprite": "^0.7.1",
-    "babel-loader": "^8.0.6",
-    "file-loader": "^4.0.0",
-    "raw-loader": "^3.0.0",
-    "webpack": "^4.34.0",
+    "babel-loader": "^8.3.0",
+    "file-loader": "^6.2.0",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.75.0",
     "webpack-nano": "^0.6.2",
     "webpack-plugin-serve": "^0.11.0"
   }
